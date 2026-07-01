@@ -107,4 +107,13 @@ if st.button("Predict Departmen"):
 
   }])
 
+  patient_scaled = patient.copy()
+
+patient_scale[cols_to_scale] = scaler.transform(
+  patient[cols_to_scale]
+)
+
+
+
+
 
