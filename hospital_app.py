@@ -8,7 +8,7 @@ st.title("🏥smart hospital navigator")
 
 @st.cache_resource
 def load_model(:
-  with open("Hospital_Model.pkl", "rb") as: f
+  with open("Hospital_Model.pkl", "rb") as f:
     return pickle.load(f)
 
 bundle = load_model()
