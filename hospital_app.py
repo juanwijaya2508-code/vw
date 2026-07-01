@@ -90,20 +90,20 @@ if st.button("Predict Departmen"):
 
 
 'temperature_level':
-temp_map.get(temperature_level, 1)
+ temp_map.get(temperature_level, 1)
 
 'heart_Rate_level':
-hr_map.get(heart_rate_level, 1,),
+ hr_map.get(heart_rate_level, 1,),
 
 'duration':
-dur_map.get(duration, 1),
+ dur_map.get(duration, 1),
 
-'asthma': int(asthma),
-'hypertension': int(hypertension),
-'heart_disease': int(heart_disease)
+ 'asthma': int(asthma),
+ 'hypertension': int(hypertension),
+ 'heart_disease': int(heart_disease)
 
-'chief_complaint' :
-cc_map.get(chief_complaint, 9)
+ 'chief_complaint' :
+ cc_map.get(chief_complaint, 9)
 
   }])
 
