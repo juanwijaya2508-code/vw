@@ -89,21 +89,21 @@ if st.button("Predict Departmen"):
     'skin_rash': int(skin_rash),
 
 
-'temperature_level':
- temp_map.get(temperature_level, 1),
+    'temperature_level':
+     temp_map.get(temperature_level, 1),
 
-'heart_Rate_level':
- hr_map.get(heart_rate_level, 1,),
-
-'duration':
- dur_map.get(duration, 1),
-
- 'asthma': int(asthma),
- 'hypertension': int(hypertension),
- 'heart_disease': int(heart_disease),
-
- 'chief_complaint' :
- cc_map.get(chief_complaint, 9)
+    'heart_Rate_level':
+     hr_map.get(heart_rate_level, 1,),
+    
+    'duration':
+     dur_map.get(duration, 1),
+    
+     'asthma': int(asthma),
+     'hypertension': int(hypertension),
+     'heart_disease': int(heart_disease),
+    
+     'chief_complaint' :
+     cc_map.get(chief_complaint, 9)
 
   }])
   
