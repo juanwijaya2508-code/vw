@@ -7,7 +7,7 @@ st.set_page_config(page_title="Smart Hospital Navigator", page_icon="🏥")
 st.title("🏥smart hospital navigator")
 
 @st.cache_resource
-def load_model(:
+def load_model():
   with open("Hospital_Model.pkl", "rb") as f:
     return pickle.load(f)
 
