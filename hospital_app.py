@@ -76,15 +76,15 @@ asthma = st.checkbox("Asthma")
 if st.button("Predict Departmen"):
    patient = pd.DataFrame([{
      'age': age,
-    'gender' : gender_map.get(gender, 0),
-    'fever' : int(fever),
-    'cough' : int(cough),
-    'headache' : int(headache),
-    'chest_pain' : int(chest_pain),
-    'stomach_pain' : int(stomach_pain),
-    'shortness_of_breath' : int(shortness_of_breath),
-    'nausea_vomiting' : int(nausea_vomiting),
-    'dizziness': int(dizziness),
-    'skin_rash': int(skinrash),
+      'gender' : gender_map.get(gender, 0),
+      'fever' : int(fever),
+      'cough' : int(cough),
+      'headache' : int(headache),
+      'chest_pain' : int(chest_pain),
+      'stomach_pain' : int(stomach_pain),
+      'shortness_of_breath' : int(shortness_of_breath),
+      'nausea_vomiting' : int(nausea_vomiting),
+      'dizziness': int(dizziness),
+      'skin_rash': int(skinrash),
 
    }])
