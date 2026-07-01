@@ -90,7 +90,7 @@ if st.button("Predict Departmen"):
 
 
     'temperature_level':
-       temp_map.get(temperature_level, 1),
+         temp_map.get(temperature_level, 1),
 
     'heart_Rate_level':
        hr_map.get(heart_rate_level, 1,),
@@ -108,19 +108,19 @@ if st.button("Predict Departmen"):
   }])
   patient_scaled = patient.copy()
 
-  # patient_scale[cols_to_scale] = scaler.transform(
-  #   patient[cols_to_scale]
-  # )
+  patient_scale[cols_to_scale] = scaler.transform(
+    patient[cols_to_scale]
+  )
 
-  # prediction = model.predict(
-  #   patient_scaled[features]
-  # )[0]
+  prediction = model.predict(
+    patient_scaled[features]
+  )[0]
 
-  # department = dept_map_inv[prediction]
+  department = dept_map_inv[prediction]
 
-  # st.succes(
-  #   f"Recommended Department: {department}"
-  # )
+  st.succes(
+    f"Recommended Department: {department}"
+  )
 
 
 
