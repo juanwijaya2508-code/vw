@@ -49,3 +49,18 @@ shortness_of_breath = st.checkbox("Shortness of Breath")
 nausea_vomiting = st.checkbox("NauseaVomiting")
 dizzines = st.checkbox("Dizzines")
 skin_Rash =st.checkbox("SkinRash")
+
+st.header("Medical Information ")
+
+chief_complaint = st.slectbox(
+  "Chief Complaint",
+list(cc_map.keys())
+)
+duration = st.selectbox(
+  "Duration",
+  list(dur_map.keys())
+)
+temperature_level =  st.selectbox(
+"Temperature"
+list(temp_map.keys())
+)
