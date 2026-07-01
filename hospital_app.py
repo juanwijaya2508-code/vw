@@ -98,12 +98,12 @@ if st.button("Predict Departmen"):
     'duration':
        dur_map.get(duration, 1),
      
-     'asthma': int(asthma),
-     'hypertension': int(hypertension),
-     'heart_disease': int(heart_disease),
+    'asthma': int(asthma),
+    'hypertension': int(hypertension),
+    'heart_disease': int(heart_disease),
     
-     'chief_complaint' :
-       cc_map.get(chief_complaint, 9)
+    'chief_complaint' :
+      cc_map.get(chief_complaint, 9)
 
   }])
   patient_scaled = patient.copy()
