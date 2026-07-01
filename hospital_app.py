@@ -47,7 +47,7 @@ chest_pain = st.checkbox("ChestPain")
 stomach_pain = st.checkbox("StomachPain")
 shortness_of_breath = st.checkbox("Shortness of Breath")
 nausea_vomiting = st.checkbox("NauseaVomiting")
-dizzines = st.checkbox("Dizzines")
+dizziness = st.checkbox("Dizzines")
 skin_Rash =st.checkbox("SkinRash")
 
 st.header("Medical Information ")
