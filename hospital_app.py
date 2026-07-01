@@ -38,7 +38,7 @@ gender = st.selectbox(
   ["Female", "Male"]
 )
 
-st.header("symtoms")
+st.header("Symptoms")
 
 fever = st.checkbox("Fever")
 cough = st.checkbox("Cough")
